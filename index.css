@@ -11,21 +11,23 @@ body{
     height: 500px;
     box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
     border-radius: 12px;
-    background-color: #22252D;
+    background : #22252D;
     overflow: hidden;
 }
 
 form input{
-    width: 100%;
+    width: 300px;
     height: 150px;
     border: none;
     border-radius: 12px;
     font-size: 2rem;
-    padding: 1rem;
     color: #fff;
     background: #000;
     text-align: right;
     pointer-events: none;
+}
+form{
+    width: fit-content;
 }
 
 .buttons{
@@ -46,7 +48,7 @@ button{
     cursor: pointer;
 } 
 .btn-yellow{
-    background: rgb(245, 146, 62);
+    background : rgb(245, 146, 62);
     color: #fff;
 }
 .btn-grey{
